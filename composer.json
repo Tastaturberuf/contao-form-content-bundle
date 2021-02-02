@@ -2,7 +2,7 @@
     "name": "tastaturberuf/contao-form-content-bundle",
     "type": "contao-bundle",
     "description": "Shows content elements after a valid form request.",
-    "homepage": "@todo",
+    "homepage": "https://github.com/Tastaturberuf/contao-form-content-bundle",
     "license": "LGPL-3.0-or-later",
     "authors": [
         {

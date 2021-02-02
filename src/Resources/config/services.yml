@@ -1,0 +1,7 @@
+services:
+    _defaults:
+        autoconfigure: true
+
+    Tastaturberuf\ContaoFormContentBundle\EventListener\DataContainer\ContentDataContainer: ~
+    Tastaturberuf\ContaoFormContentBundle\EventListener\DataContainer\FormDataContainer: ~
+    Tastaturberuf\ContaoFormContentBundle\EventListener\RenderFormContentElementsListener: ~

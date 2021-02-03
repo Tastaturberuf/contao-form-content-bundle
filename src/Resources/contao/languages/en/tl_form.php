@@ -10,5 +10,7 @@ $GLOBALS['TL_LANG']['tl_form'] =
     [
         'onetime' => 'one time',
         'session' => 'whole session'
-    ]
+    ],
+
+    'edit_content' => 'Edit content elements for ID %s'
 ];

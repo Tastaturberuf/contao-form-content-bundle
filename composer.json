@@ -1,7 +1,7 @@
 {
     "name": "tastaturberuf/contao-form-content-bundle",
     "type": "contao-bundle",
-    "description": "Shows content elements after a valid form request.",
+    "description": "With this Contao bundle you can easily show various content elements instead of the form itself after successful submitting it.",
     "homepage": "https://github.com/Tastaturberuf/contao-form-content-bundle",
     "license": "LGPL-3.0-or-later",
     "authors": [

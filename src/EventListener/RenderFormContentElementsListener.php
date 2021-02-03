@@ -49,7 +49,7 @@ class RenderFormContentElementsListener
         Form $form
     ): void
     {
-        $this->formSession[] = $form->id;
+        $this->formSession[$form->id] = $form->id;
     }
 
 

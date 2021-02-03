@@ -99,7 +99,7 @@ class FormDataContainer
                     [
                         'tl_class' => 'w50'
                     ],
-                    'sql' => "tinyint(1) unsigned NOT NULL default '1'"
+                    'sql' => "smallint(1) unsigned NOT NULL default '1'"
                 ]
             ]
         ];

@@ -29,7 +29,7 @@ class RenderFormContentElementsListener
 
     public function __construct()
     {
-        if ( PHP_!key_exists('FORM_CONTENT_SUBMITTED_FORMS', (array) $_SESSION) )
+        if ( !key_exists('FORM_CONTENT_SUBMITTED_FORMS', (array) $_SESSION) )
         {
             $_SESSION['FORM_CONTENT_SUBMITTED_FORMS'] = [];
         }

@@ -20,7 +20,7 @@ class ContentDataContainer
      */
     public function loadDataContainer(string $table): void
     {
-        if ( $table === ContentModel::getTable() && 'form' === $_GET['do'] )
+        if ( ('form' === $_GET['do'] ?? null) && $table === ContentModel::getTable() )
         {
             // set dynamic parent table name
             $GLOBALS['TL_DCA'][$table]['config']['ptable'] = FormModel::getTable();
